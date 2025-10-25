@@ -1,0 +1,82 @@
+# Archivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# Directorios de build
+obj/
+bin/
+build/
+dist/
+
+# Archivos de prueba generados
+test/output/**
+test/multi_input/
+test/multi_output*/
+test/**/*.enc
+test/**/*.dec
+test/**/*.rle
+test/**/*.compressed
+test/**/*.encrypted
+test/**/*.restored
+test/**/*.bak
+
+# Archivos temporales de prueba
+*.tmp
+*.temp
+*.dat
+*.bin
+checksum*.txt
+
+# Directorios de prueba comunes
+Resultados/
+Archivados/
+Restaurados/
+datos/
+salida/
+documentos/
+
+# Core dumps y debugging
+core
+core.*
+*.core
+vgcore.*
+*.dSYM/
+
+# Editor y IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+
+# Valgrind output
+valgrind-*.log
+massif.out.*
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Dependency files
+*.d
+.depend
+
+# Backups
+*.backup
+*.bak
+*~
+
+# Logs
+*.log
+
+# OS specific
+Thumbs.db
+.directory
